@@ -1,0 +1,952 @@
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.main {
+  height: 4750px;
+  background: #f5f5f7;
+}
+.sec1 {
+  height: 585px;
+}
+.sec2 {
+  height: 3750px;
+  padding-top: 150px;
+}
+.coloredtext {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headtxt {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.headtxt2 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.helptxt {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.helptxt2 {
+  color: #06c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.shopping-help1-1 .helptxt2 {
+  text-decoration-line: underline;
+}
+.graytext {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.graytext2 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  align-items: center;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.background {
+  height: 45px;
+  background: linear-gradient(to right, #019ffb, #f55be4, #e44cbb, #fd8c1f);
+  filter: blur(10px);
+  position: relative;
+
+  z-index: 2;
+  top: 20px;
+}
+.header3 {
+  display: flex;
+  padding: 150px 140px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.header4 {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.storetxt {
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.01px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orangetxt {
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.text1 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.text2 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.storetxt2 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px;
+}
+.shopping-help {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.scroll {
+  display: flex;
+  overflow: scroll;
+  gap: 16px;
+  width: 100%;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+.shopping-help1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex-direction: column;
+  width: 175px;
+}
+.shopping-help1 p {
+  margin: 0;
+}
+.shopping-help1-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.shopping-help1-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 0 160px;
+  gap: 12px;
+}
+.producttxt {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.sec2-1 {
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.title {
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 0 0 30px;
+  gap: 15px;
+}
+.itemdetail {
+  height: 500px;
+  justify-content: flex-end;
+  gap: 24px;
+  display: flex;
+}
+.boxshadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.sec2items1 {
+  height: 500px;
+  width: 480px;
+  background: url(./img/product/1.png) no-repeat;
+  border-radius: 18px;
+  display: flex;
+}
+.sec2items2 {
+  height: 500px;
+  width: 480px;
+  background: url(./img/product/2.png) no-repeat;
+  border-radius: 18px;
+}
+.sec2items2 .text {
+  padding-top: 57px;
+}
+.sec2items3 {
+  height: 500px;
+  width: 480px;
+  background: url(./img/product/3.png) no-repeat;
+  border-radius: 18px;
+}
+.sec2items4 {
+  height: 500px;
+  width: 480px;
+  background: url(./img/product/4.jpg) no-repeat;
+  border-radius: 18px;
+  background-size: contain;
+}
+.sec2items5 {
+  height: 500px;
+  background: url(./img/product/store-card1.png);
+  border-radius: 18px;
+  width: 400px;
+}
+.sec2items5 .text1 {
+  display: flex;
+  width: 197px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 53px;
+}
+.text3 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.sec2-2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+}
+.pricetxt {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.itemdetail2 {
+  display: flex;
+  gap: 20px;
+}
+.img2 {
+  width: 230px;
+  height: 230px;
+}
+.sec2items6 {
+  height: 500px;
+  width: 313px;
+  background: #fff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.sec2items7 {
+  height: 500px;
+  width: 313px;
+  background: #fff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sec2items6 .text {
+  position: absolute;
+  bottom: 57px;
+  left: 7px;
+}
+.sec2items6 .list {
+  position: absolute;
+  bottom: 160px;
+}
+.sec2items6 > .img2 {
+  position: absolute;
+  top: 71px;
+}
+.sec2items6 > .img3 {
+  position: absolute;
+  bottom: 145px;
+}
+.sec2items8 > .img2 {
+  position: absolute;
+  top: 71px;
+}
+.sec2items7 .text {
+  position: absolute;
+  bottom: 59px;
+  left: 7px;
+}
+.sec2items7 > .img2 {
+  position: absolute;
+  top: 71px;
+}
+.sec2items8 .text {
+  position: absolute;
+  bottom: 59px;
+  left: 7px;
+}
+.sec2items8 > .img2 {
+  position: absolute;
+  top: 71px;
+}
+
+.sec2items8 {
+  height: 500px;
+  width: 313px;
+  background: #fff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sec2items8 .text {
+  padding-left: 38px;
+  padding-top: 0px;
+  gap: 6px;
+}
+.sec2items8 > .text > .pricetxt {
+  padding-bottom: 0px;
+}
+
+.sec2-3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+}
+.sec2items10 {
+  background: url(./img/product/store-card-40-holiday-quick-picks-202411.png);
+  border-radius: 18px;
+  width: 400px;
+  height: 500px;
+}
+.sec2items10 .text1 {
+  padding: 54px 0 0 30px;
+  width: 326px;
+}
+
+.sec2-4 {
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+  gap: 24px;
+}
+.itemdetail3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sec2items15 {
+  background: url(./img/product/store-card-50-holiday-delivery-pickup-202411.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items15 .text1 {
+  display: flex;
+  width: 305px;
+  height: 130px;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.sec2items16 {
+  display: flex;
+  width: 313px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sec2items16 .text1 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  width: 238px;
+  padding-left: 30px;
+  padding-top: 72px;
+}
+.item16 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.item17 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.sec2items18 {
+  display: flex;
+  width: 313px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sec2items18 .text1 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  width: 238px;
+  padding-left: 30px;
+  padding-top: 72px;
+}
+.item18 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.item19 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.sec2items20 {
+  background: url(./img/product/store-card-50-holiday-trade-in-202411.png);
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items20 .text1 {
+  width: 330.59px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.sec2items20 .graytext2 {
+  padding-top: 21px;
+  padding-left: 30px;
+}
+.sec2items21 {
+  background: url(./img/product/store-card-50-taa-202505.jpeg);
+  background-size: contain;
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items21 .text1 {
+  width: 330.59px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.sec2items21 .graytext2 {
+  padding-top: 21px;
+  padding-left: 30px;
+}
+.sec2items21 .text4 {
+  display: flex;
+  width: 259px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.sec2items22 {
+  background: url(./img/product/store-card-50-TAA-202310.jpeg);
+  background-size: contain;
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items22 .text1 {
+  width: 330.59px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.sec2items22 .graytext2 {
+  padding-top: 21px;
+  padding-left: 30px;
+}
+.sec2items22 .text4 {
+  display: flex;
+  width: 420px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.sec2items23 {
+  background: url(./img/product/store-card-50-genius-202108.jpeg);
+  background-size: contain;
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items23 .text1 {
+  width: 330.59px;
+  padding-top: 55px;
+  padding-left: 30px;
+}
+.sec2items24 {
+  background: url(./img/product/store-card-50-personal-setup-202408_GEO_US.jpeg);
+  background-size: contain;
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+}
+.sec2items24 .text1 {
+  width: 330.59px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.sec2items24 .graytext2 {
+  padding-top: 21px;
+  padding-left: 30px;
+}
+.sec2-5 {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+  gap: 24px;
+}
+.itemdetail4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item21 {
+  width: 480px;
+  height: 500px;
+  background: url(./img/product/store-card-50-holiday-apple-music-202411.png);
+  border-radius: 18px;
+}
+.item21 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item21 .text1 {
+  display: flex;
+  width: 275px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item21 .text4 {
+  display: flex;
+  width: 259px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item22 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #fff;
+}
+.item22 .text1 {
+  display: flex;
+  width: 404.03px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 25px;
+  color: #fff;
+}
+
+.item23 .text1 {
+  display: flex;
+  width: 442px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 65px;
+}
+
+.item22 {
+  width: 480px;
+  height: 500px;
+  background: url(./img/product/store-card-50-holiday-apple-tv-202411.png);
+  border-radius: 18px;
+}
+.item23 {
+  width: 480px;
+  height: 500px;
+  background: url(./img/product/store-card-50-subscriptions-202108_GEO_US.png);
+  border-radius: 18px;
+}
+.item28 {
+  width: 400px;
+  height: 500px;
+  background: url(./img/product/airpod.jpeg) no-repeat;
+  border-radius: 18px;
+  background-size: contain;
+}
+.item28 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item28 .text1 {
+  display: flex;
+  width: 275px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item28 .text4 {
+  display: flex;
+  width: 259px;
+  height: 41px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item29 {
+  width: 480px;
+  height: 500px;
+  background: url(./img/product/store-card-50-applepay-202509_GEO_US.jpeg)
+    no-repeat;
+  border-radius: 18px;
+  background-size: contain;
+}
+.item29 .text1 {
+  display: flex;
+  width: 275px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+.item30 {
+  width: 480px;
+  height: 500px;
+  background: url(./img/product/store-card-50-homekit-202405_GEO_US.jpeg)
+    no-repeat;
+  border-radius: 18px;
+  background-size: contain;
+}
+.item30 .graytext2 {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.item30 .text1 {
+  display: flex;
+  width: 275px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.sec2-6 {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 140px;
+  padding-right: 140px;
+  gap: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+  gap: 24px;
+}
+
+.text4 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.itemdetail5 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item24 {
+  width: 400px;
+  height: 500px;
+  background: url(./img/product/iphone-card-40-carriertrade-202409.png);
+  border-radius: 18px;
+}
+.item24 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item24 .text1 {
+  display: flex;
+  width: 330.67px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item24 .text4 {
+  display: flex;
+  width: 320.79px;
+  height: 41px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.item25 {
+  width: 400px;
+  height: 500px;
+  background: url(./img/product/store-card-40-bts-edu-macbook-air-ipad-air-202406.png);
+  border-radius: 18px;
+}
+.item25 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item25 .text1 {
+  display: flex;
+  width: 338px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item26 {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  background: url(./img/product/store-card-40-refurb-202408.png);
+}
+.item26 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item26 .text1 {
+  display: flex;
+  width: 338px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item27 {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  background: url(./img/product/iphone-card-40-business-202409.png);
+}
+.item27 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item27 .text1 {
+  display: flex;
+  width: 269px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item31 {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  background: url(./img/product/store-card-40-business-202506.jpeg);
+  background-size: contain;
+}
+.item31 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #fff;
+}
+.item31 .text1 {
+  display: flex;
+  width: 269px;
+  padding-left: 30px;
+  padding-top: 10px;
+  color: #fff;
+}
+.item32 {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  background: url(./img/product/store-card-40-refurb-202408.jpeg);
+  background-size: contain;
+}
+.item32 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item32 .text1 {
+  display: flex;
+  width: 269px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.item33 {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  background: url(./img/product/store-card-40-gov-202503.jpeg);
+  background-size: contain;
+}
+.item33 .graytext2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.item33 .text1 {
+  display: flex;
+  width: 269px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.itemdetail6 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item27 p {
+  color: white;
+}
+.footer {
+  display: flex;
+  width: 1920px;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.footer h2 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.footer p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.btn {
+  display: flex;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
+}
