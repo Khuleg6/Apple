@@ -914,7 +914,7 @@ p {
 }
 .footer {
   display: flex;
-  width: 1920px;
+
   padding: 0 140px;
   flex-direction: column;
   align-items: flex-start;
